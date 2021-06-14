@@ -15,24 +15,24 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = 'OnePunchSupport'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -1001253661229  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -1001190806654  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    API_ID = 5790236  # integer value, dont use ""
+    API_HASH = "93601b58e1ca8309238701d7ea9dc078"
+    TOKEN = "1864946006:AAF08q3YMOgpagvKANB38b3jHmvUodEb0rs"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1838880848  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Hisabo"
+    SUPPORT_CHAT = 'NangCuc'  #Your own group for support, do not add the @
+    JOIN_LOGGER = -1001247808351  #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -1001247808351  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
-    REDIS_URI = " " # Get One From RedisLabs.com Make Role And Database Make Sure that the Format Of Url Should be: 'redis://Username:pass@endpoint/dbname'
+    SQLALCHEMY_DATABASE_URI = 'postgres://ri:ri@103.159.51.135:5432/ri'  # needed for any database modules
+    REDIS_URI = "redis://ri:pkgVn2RaUONw4wbsothfNLdKsm55D5jj@redis-17047.c257.us-east-1-3.ec2.cloud.redislabs.com:17047/ri" # Get One From RedisLabs.com Make Role And Database Make Sure that the Format Of Url Should be: 'redis://Username:pass@endpoint/dbname'
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "D1xqiSR1PaU8LD1EYSxAHKrUXQiccZnl6BpZUNWo9W4Jt9F0xpvvzOXoQ6wvOS6y"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     #OPTIONAL
